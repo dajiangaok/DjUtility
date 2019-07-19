@@ -1,0 +1,20 @@
+{
+    "name": "dj/utility",
+    "type": "library",
+    "description": "大江的工具包",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "dajiang",
+            "email": "1500461361@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dj\\Utility\\": "src/"
+        }
+    }
+}
